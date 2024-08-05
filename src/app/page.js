@@ -51,9 +51,9 @@ if (!isValidEmail(email)) {
           <img src="/images/illustration-sign-up-desktop.svg" alt="desktop illustration" className="w-full object-cover md:w-60 hidden md:block md:order-2"/>
           <img src="/images/illustration-sign-up-mobile.svg" alt="Mobile illustration" id="mobile-image" className="w-full md:hidden"/>
           <div className=" p-2 flex flex-col justify-center md:order-1">
-          <h1 className="text-lg font-bold text-gray-900">Stay updated!</h1>
-          <p className="text-sm text-gray-900 py-3">Join 60,000+ product managers receiving monthly updates on:</p>
-          <ul className="list-none text-gray-900 text-sm py-2">
+          <h1 id="move" className="text-lg font-bold text-gray-900">Stay updated!</h1>
+          <p id="move" className="text-sm text-gray-900 py-3">Join 60,000+ product managers receiving monthly updates on:</p>
+          <ul id="move" className="list-none text-gray-900 text-sm py-2">
            <li className="flex gap-2 py-2"><img src="/images/icon-list.svg"/>Measuring to ensure updates are a success</li>
            <li className="flex gap-2 py-2"><img src="/images/icon-list.svg"/>Product discovery and building what matters</li>
            <li className="flex gap-2 py-2"><img src="/images/icon-list.svg"/>And much more!</li>
