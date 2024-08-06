@@ -93,6 +93,11 @@
         bottom: 7px;
         left: 15px;
     }
+
+    #email-error {
+        position: relative;
+        top: 1px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -130,7 +135,10 @@
         box-sizing: border-box;
     }
      
-    
+    #form-container form button {
+        position: relative;
+        left: 45px;
+    }
 
   
 }
